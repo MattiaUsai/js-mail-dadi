@@ -1,0 +1,11 @@
+
+// --CHIEDERE ALL'UTENTE LA SUA EMAIL
+// --CREARE UNA LISTA DI MAIL ָSALVARLE IN UN ARRAY
+// --CREARE UN CICLO CHE CONFRONTI LA MAIL DELL'UTENTE CON LE EMAIL SALVATE; 
+// --SE VIENָTROVATO IL RISULTATO SCRIVERE EMAIL CORRETTA ALTRIMENTI SCRIVERE EMAIL SBAGLIATA
+
+
+
+const userEmail = prompt("email");
+// CHIEDO ALL'UTENTE UNA MAIL
+const loggedEmail = ["marco@gmail.com", "paolo@gmail.com", "@gmail.com", "@gmail.com", "@gmail.com"]
