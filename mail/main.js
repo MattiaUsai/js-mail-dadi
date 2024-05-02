@@ -12,9 +12,7 @@ let userEmail = prompt("email");
 let loggedEmail = ["marco@gmail.com", "paolo@gmail.com", "stefano@gmail.com", "cristian@gmail.com", "mattia@gmail.com"];
 // CREO UN' ARRAY CON LE EMAIL REGISTRATE
 
-
-
-for (let i = 0; i <=loggedEmail.length-1 ; i++){
+for (let i = 0; i <=loggedEmail.length-1  ; i++){
 
     
     if (loggedEmail[i] === userEmail){
