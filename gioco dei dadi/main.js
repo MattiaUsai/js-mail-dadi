@@ -11,3 +11,47 @@
 //     scrivere in pagina parità
 //     ]
     
+
+
+
+const btnGame = document.getElementById ("btnGame");
+btnGame.addEventListener('click', function(){
+    console.log("ho cliccato il botone")
+    const numberGenerateComputer = Math.round(Math.random() * 6)
+    const numberGenerateUser = Math.round(Math.random() * 6)
+
+
+    const computerNumber = document.getElementById ("numberComputer");
+    computerNumber.innerHTML = ("");
+    computerNumber.innerHTML = (numberGenerateComputer);
+
+    const computerUser = document.getElementById ("numberUser");
+    computerUser.innerHTML =("");
+    computerUser.innerHTML =(numberGenerateUser);
+
+
+    if (numberGenerateComputer>numberGenerateUser){
+        const result = document.getElementById ("result");
+        result.innerHTML =("");
+        result.innerHTML =("hai perso");
+        result.className = "  text-center  text-uppercase fs-1 fw-bold  my-5 text-bg-danger"
+        
+    }
+    else if (numberGenerateComputer<numberGenerateUser){
+        const result = document.getElementById ("result");
+        result.innerHTML =("");
+        result.innerHTML =("hai vinto");
+        result.className = "  text-center  text-uppercase fs-1 fw-bold  my-5 text-bg-success"
+
+    }
+    else  {
+        const result = document.getElementById ("result");
+        result.innerHTML =("");
+        result.innerHTML =("pareggio");
+        result.className =  "  text-center  text-uppercase fs-1 fw-bold  my-5 text-bg-warning"
+    }
+    
+
+
+
+})
