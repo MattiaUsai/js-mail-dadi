@@ -8,7 +8,19 @@
     <script src="https://kit.fontawesome.com/055ab6717a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1 class="text-center">Gioco dei dadi</h1>
+    <h1 class="text-center text-uppercase fw-bold py-5">Gioco dei dadi</h1>
+    <button id="btnGame">GIOCA</button>
+    <div class="row mx-auto text-center">
+        <div class="col-3 mx-auto rounded-3 text-bg-secondary p-4">
+            <h2 class="fs-3 py-2 text-center">Numero Computer</h2>
+            <div id="numberComputer" class="fs-1 text-center fw-bold">3</div>
+        </div>
+        <div class="col-3 mx-auto rounded-3 text-bg-primary p-4">
+            <h2 class="fs-3 py-2 text-center">Numero Giocatore</h2>
+            <div id="numberUser" class="fs-1 text-center fw-bold">4</div>
+        </div>
+    </div>
+    <h2 id="result" class="text-center  text-uppercase fs-1 fw-bold  my-5"></h2>
     
     <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
